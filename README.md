@@ -1,4 +1,4 @@
-# Movie List App
+# Películas Favoritas
 
 Este proyecto es una aplicación web desarrollada para adquirir conocimientos en Angular y TypeScript. La aplicación simula la carga de películas desde una API externa, brindando al usuario la capacidad de armar una lista de películas favoritas.
 
