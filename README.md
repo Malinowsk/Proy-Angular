@@ -1,35 +1,34 @@
-# Films
+# Movie List App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+Este proyecto es una aplicación web desarrollada para adquirir conocimientos en Angular y TypeScript. La aplicación simula la carga de películas desde una API externa, brindando al usuario la capacidad de armar una lista de películas favoritas.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Carga de películas desde una API externa.
+- Visualización de información detallada sobre cada película.
+- Funcionalidad de búsqueda para encontrar películas específicas.
+- Capacidad para agregar películas a una lista de favoritos.
+- Interfaz de usuario intuitiva y amigable.
 
-## Code scaffolding
+## Tecnologías Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: Framework de desarrollo de aplicaciones web.
+- TypeScript: Lenguaje de programación.
+- [API de Películas](https://65ef27f5ead08fa78a4ff18a.mockapi.io/peliculas): Fuente de datos para las películas.
+- HTML y CSS: Para la estructura y el estilo de la interfaz de usuario.
 
-## Build
+## Cómo Usar
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clona este repositorio en tu máquina local.
+2. Instala las dependencias con `npm install`.
+3. Ejecuta la aplicación con `ng serve`.
+4. Abre tu navegador y visita `http://localhost:4200` para ver la aplicación en acción.
 
-## Running unit tests
+## Contribuir
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Si deseas contribuir a este proyecto, ¡eres bienvenido! Siéntete libre de abrir un problema o enviar una solicitud de extracción.
 
-## Running end-to-end tests
+## Créditos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Este proyecto fue creado por [Juan Ignacio Rago](https://github.com/Malinowsk).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
---------
-
-instalar angular: npm install -g @angular/cli
-
-ng new <nombre-del-proy>
-
-ng g c <nombre-comp>
