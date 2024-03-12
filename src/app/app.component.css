@@ -1,0 +1,40 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #ddd; /* Borde inferior */
+}
+
+.navbar-brand {
+    font-size: 24px; /* Tamaño de fuente para el logotipo */
+    font-weight: bold; /* Peso de la fuente */
+    color: #333; /* Color del texto */
+}
+
+.navbar-nav .nav-link {
+    color: #555; /* Color de los enlaces */
+    margin-right: 20px; /* Espaciado entre los enlaces */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    border-top: 1px solid #ddd; /* Borde superior */
+}
+
+footer a {
+    color: #555; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    margin: 0 10px; /* Espaciado entre los enlaces */
+}
+
+/* Estilos para el texto de copyright */
+.text-muted {
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+a:hover{
+    color: yellow;
+}

@@ -1,0 +1,43 @@
+.dimencion_imagen{
+    width: 90px;
+}
+
+.destacado{
+     background-color: #ffc107 !important;
+     font-weight: bold !important;
+}
+
+.transparente{
+    --bs-table-bg: transparent;
+}
+
+td{
+    vertical-align: middle;
+}
+
+.fav{
+    background-color: brown;
+}
+
+/* Estilos generales para la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para las filas alternas (rayas de cebra) */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para las celdas de la tabla */
+.table td, .table th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th{
+    color: lawngreen;
+}

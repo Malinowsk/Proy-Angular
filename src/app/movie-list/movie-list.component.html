@@ -1,0 +1,27 @@
+<h2>Lista de Películas</h2>
+<table class="table transparente text-center">
+    <thead>
+        <tr>
+            <th scope="col">Imagen</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Estrellas</th>
+            <th scope="col">Favoritas</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let movie of films ; let i=index" [ngClass]="{'destacado':movie.destacada}">
+            <td><img [src]="movie.imagen" class="img-thumbnail dimencion_imagen" [alt]="movie.nombre" /></td>
+            <td>{{movie.nombre}}</td>
+            <td>{{movie.genero}}</td>
+            <td>
+               <app-starts-integer [(quantity)]="movie.estrellas" [i]="i"></app-starts-integer>
+            </td>
+            <td>
+                <div>
+                    <button id="btn-fav{{i}}" style="border-radius: 20px;" (click)="addtoFavorite(movie,i)"><i class="fa fa-plus"></i></button>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,1 +1,171 @@
 /* You can add global styles to this file, and also import other style files */
+.container{
+    padding: 1.5rem;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+/* Estilos para la lista de favoritas */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  img {
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el título */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-style: italic;
+    }
+
+  h1{
+    font-size: 42px !important;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight:600 !important;
+    color: aliceblue !important;
+  }
+  
+  /* Estilos para el mensaje de carga */
+  #loading {
+    font-style: italic;
+    color: #666;
+  }
+  
+  /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    background-color: #343a40;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  /* Estilos para el título */
+  h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la lista de películas */
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .movie-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .movie-details {
+    padding: 20px;
+  }
+  
+  .movie-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .movie-genre {
+    color: #555;
+  }
+  
+  .movie-stars {
+    margin-top: 10px;
+  }
+  
+  /* Estilos para la lista de películas favoritas */
+  .favorite-list {
+    margin-top: 30px;
+  }
+  
+  .favorite-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .favorite-item img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .favorite-item span {
+    font-size: 16px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #343a40;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .text-muted {
+    font-size: 14px;
+  }
+
+  body{
+    background: linear-gradient(135deg,#1c203c 0,#01e675 100%);
+  }

@@ -1,0 +1,25 @@
+<!-- <h1>Lista de Favoritas</h1>
+
+<ul>
+    <li *ngFor = "let b of favList$ | async">
+        {{b.nombre}} : Calificación {{b.estrellas}}
+    </li>
+</ul> -->
+
+<h2>Lista de Favoritas</h2>
+
+<ul>
+    <ng-container *ngIf="(favList$ | async) as favorites; else loading">
+        <li style="
+        background-color: floralwhite;
+        border-radius: 20px;
+    " *ngFor="let favorite of favorites">
+            <img [src]="favorite.imagen" [alt]="favorite.nombre" style="width: 50px; height: auto;">
+            <span>{{ favorite.nombre }} : Calif: {{ favorite.estrellas }}</span>
+        </li>
+        <li *ngIf="favorites.length === 0">No hay películas favoritas</li>
+    </ng-container>
+    <ng-template #loading>
+        <li>Cargando...</li>
+    </ng-template>
+</ul>

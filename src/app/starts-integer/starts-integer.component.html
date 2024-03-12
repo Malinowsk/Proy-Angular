@@ -1,0 +1,14 @@
+<form>
+    <p class="clasificacion">
+       <input id="radio{{(i*5)+1}}" type="radio" name="estrellas" (click)="modificar_valor(5)" [value]="5+(i*5)" /><!--
+    --><label for="radio{{(i*5)+1}}">★</label><!--
+    --><input id="radio{{(i*5)+2}}" type="radio" name="estrellas" (click)="modificar_valor(4)" [value]="4+(i*5)"><!--
+    --><label for="radio{{(i*5)+2}}">★</label><!--
+    --><input id="radio{{(i*5)+3}}" type="radio" name="estrellas" (click)="modificar_valor(3)" [value]="3+(i*5)"><!--
+    --><label for="radio{{(i*5)+3}}">★</label><!--
+    --><input id="radio{{(i*5)+4}}" type="radio" name="estrellas" (click)="modificar_valor(2)" [value]="2+(i*5)"><!--
+    --><label for="radio{{(i*5)+4}}">★</label><!--
+    --><input id="radio{{(i*5)+5}}" type="radio" name="estrellas" (click)="modificar_valor(1)" [value]="1+(i*5)"><!--
+    --><label for="radio{{(i*5)+5}}">★</label>
+    </p>
+</form>
