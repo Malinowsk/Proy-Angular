@@ -32,3 +32,7 @@ Si deseas contribuir a este proyecto, ¡eres bienvenido! Siéntete libre de abri
 
 Este proyecto fue creado por [Juan Ignacio Rago](https://github.com/Malinowsk).
 
+## Datos de Estudiante
+
+DNI: 34648616 - Email: juanrago2015@gmail.com - Sede: Tandil
+
